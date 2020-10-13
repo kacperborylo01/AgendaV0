@@ -60,9 +60,9 @@ Algoritmo AgendaV0
 				leer buscar;
 				Si buscar == nombre Entonces
 					
-					Escribir "El empleado con nombre " ,  buscar " y teléfono" telefono " está registrado";
+					Escribir "El empleado con nombre " ,  buscar " y teléfono " telefono " está registrado";
 				SiNo
-					Escribir "El empleado con nombre " ,  buscar "no está registrado";
+					Escribir "El empleado con nombre " ,  buscar " no está registrado";
 					
 				FinSi
 				
@@ -115,7 +115,7 @@ Algoritmo AgendaV0
 				leer editar;
 				
 				Si editar <> nombre Entonces
-					editar="";
+					nombre=editar;
 					Escribir "El usuario se ha editado con éxito";
 				SiNo
 					Escribir "El nombre introducido es el mismo al anterior";
@@ -160,6 +160,8 @@ Algoritmo AgendaV0
 				
 			6: 
 				Escribir "Adiós Majo";
+				leer opc;
+				
 				
 			
 			
